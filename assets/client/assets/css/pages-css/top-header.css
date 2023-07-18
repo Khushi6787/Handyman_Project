@@ -1,0 +1,279 @@
+.header-area {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.header-area .top-header-area {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.header-left-content ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.header-left-content ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.header-left-content ul li:last-child {
+  margin-right: 0;
+}
+
+.header-left-content ul li a {
+  color: var(--white-color);
+}
+
+.header-left-content ul li a.call {
+  font-size: 16px;
+  margin-right: 30px;
+}
+
+.header-left-content ul li a.call i {
+  position: relative;
+  top: 2px;
+  margin-right: 5px;
+}
+
+.header-left-content ul li a:hover {
+  color: var(--main-color);
+}
+
+.header-right-content {
+  float: right;
+}
+
+.header-right-content .others-options ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  line-height: 1;
+}
+
+.header-right-content .others-options ul li {
+  display: inline-block;
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 1px solid #eeeeee;
+}
+
+.header-right-content .others-options ul li a {
+  position: relative;
+}
+
+.header-right-content .others-options ul li a i {
+  color: var(--white-color);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.header-right-content .others-options ul li a .count {
+  position: absolute;
+  top: 0;
+  right: -5px;
+  display: inline-block;
+  font-size: 8px;
+  width: 12px;
+  height: 12px;
+  line-height: 12px;
+  text-align: center;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  color: var(--white-color);
+}
+
+.header-right-content .others-options ul li a:hover i {
+  color: var(--main-color);
+}
+
+.header-right-content .others-options ul li:last-child {
+  margin-right: 0;
+  padding-right: 0;
+  border-right: none;
+}
+
+.header-right-content .others-options ul li .navbar-option-language button {
+  background-color: transparent;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15px;
+  font-weight: 500;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.header-right-content .others-options ul li .navbar-option-language button .lang-name {
+  color: var(--white-color);
+}
+
+.header-right-content .others-options ul li .navbar-option-language button img {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 35px;
+          flex: 0 0 35px;
+  max-width: 35px;
+  border-radius: 50%;
+  border: 3px solid var(--white-color);
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+  margin-right: 10px;
+}
+
+.header-right-content .others-options ul li .navbar-option-language button i {
+  font-size: 20px;
+  margin-right: 10px;
+  line-height: 1;
+  color: var(--white-color);
+}
+
+.header-right-content .others-options ul li .navbar-option-language .dropdown-toggle:after {
+  content: "\ea4e";
+  font-family: 'remixicon' !important;
+  font-size: 20px;
+  margin-left: 5px;
+  border: 0;
+  color: var(--white-color);
+}
+
+.header-right-content .others-options ul li .navbar-option-language .dropdown-menu {
+  margin: 0;
+  -webkit-transform: translateY(30px);
+          transform: translateY(30px);
+  display: block !important;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  right: 0;
+  left: auto;
+  border-radius: 0;
+  padding: 8px 0;
+  border: none;
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+  background-color: var(--white-color);
+}
+
+.header-right-content .others-options ul li .navbar-option-language .dropdown-menu .dropdown-item {
+  padding: 8px 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  font-size: 15px;
+}
+
+.header-right-content .others-options ul li .navbar-option-language .dropdown-menu .dropdown-item img {
+  max-width: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+
+.header-right-content .others-options ul li .navbar-option-language .dropdown-menu .dropdown-item:hover {
+  color: var(--main-color);
+  background-color: transparent;
+}
+
+.header-right-content .others-options ul li .navbar-option-language .dropdown-menu .dropdown-item:focus {
+  color: var(--main-color);
+  background-color: transparent;
+}
+
+.header-right-content .others-options ul li .navbar-option-language .dropdown-menu.show {
+  -webkit-transform: translateY(26px);
+          transform: translateY(26px);
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+}
+
+.header-right-content .others-options ul li.call-us {
+  position: relative;
+  padding: 18px 60px;
+  padding-left: 120px;
+  top: 16px;
+  background-color: #10539a;
+  color: var(--white-color);
+}
+
+.header-right-content .others-options ul li.call-us a {
+  display: block;
+  margin-top: 16px;
+  color: var(--white-color);
+}
+
+.header-right-content .others-options ul li.call-us i {
+  position: absolute;
+  top: 18px;
+  left: 50px;
+  background-color: var(--main-color);
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 25px;
+  color: var(--white-color);
+  border-radius: 50%;
+}
+
+.header-right-content .others-options ul li:nth-child(4) {
+  border-right: none;
+}
+
+.header-right-content .others-options ul li {
+  border-right: 1px solid #564c43;
+}
+
+.header-right-content .others-options ul li:nth-child(2) {
+  padding-right: 15px;
+}
+
+.header-right-content .others-options ul li .dropdown, .header-right-content .others-options ul li .dropend, .header-right-content .others-options ul li .dropstart, .header-right-content .others-options ul li .dropup {
+  position: relative;
+  top: 2px;
+}
+
+.header-right-content .others-options ul li .navbar-option-language button i {
+  position: relative;
+  top: 1px;
+}
+
+.header-left-content ul li a.call {
+  position: relative;
+  top: -1px;
+}
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  .header-left-content {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .header-left-content ul li a.call {
+    margin-right: 0;
+  }
+  .header-right-content {
+    float: unset;
+    text-align: center;
+  }
+}
+
+/* Min width 768px to Max width 991px */
+/* Min width 992px to Max width 1199px */
+/*# sourceMappingURL=top-header.css.map */

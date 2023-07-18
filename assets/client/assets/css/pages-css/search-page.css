@@ -1,0 +1,56 @@
+.search-page-area .sidebar-widget {
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.search-page-area .search-result {
+  text-align: center;
+}
+
+.search-page-area ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.search-page-area ul li {
+  margin-bottom: 35px;
+}
+
+.search-page-area ul li:last-child {
+  margin-bottom: 0;
+}
+
+.search-page-area ul li a h3 {
+  font-size: 25px;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.search-page-area ul li a p {
+  color: var(--body-color);
+}
+
+.search-page-area ul li:hover a h3 {
+  color: var(--main-color);
+}
+
+.search-page-area .pagination-area {
+  margin-top: 40px;
+}
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  .search-page-area ul li a h3 {
+    font-size: 22px;
+  }
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .search-page-area ul li a h3 {
+    font-size: 22px;
+  }
+}
+/*# sourceMappingURL=search-page.css.map */

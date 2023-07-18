@@ -1,0 +1,125 @@
+.services-sidebar {
+  background: -webkit-gradient(linear, left top, right top, from(#f6f7ff), to(#f0f8ff));
+  background: linear-gradient(to right, #f6f7ff, #f0f8ff);
+  padding: 30px;
+}
+
+.services-sidebar h3 {
+  font-size: 24px;
+  position: relative;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+
+.services-sidebar h3::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 3px;
+  background-color: var(--main-color);
+}
+
+.services-sidebar ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.services-sidebar ul li {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.services-sidebar ul li a {
+  color: var(--heading-color);
+}
+
+.services-sidebar ul li a i {
+  position: relative;
+  top: 2px;
+}
+
+.services-sidebar ul li a:hover {
+  margin-left: 5px;
+  color: var(--main-color);
+}
+
+.services-sidebar ul li:last-child {
+  margin-bottom: 0;
+}
+
+.book-appointment {
+  background: -webkit-gradient(linear, left top, right top, from(#f6f7ff), to(#f0f8ff));
+  background: linear-gradient(to right, #f6f7ff, #f0f8ff);
+  padding: 30px;
+  margin-top: 30px;
+}
+
+.book-appointment h3 {
+  font-size: 24px;
+  position: relative;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+
+.book-appointment h3::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 3px;
+  background-color: var(--main-color);
+}
+
+.book-appointment .form-group {
+  margin-bottom: 20px;
+}
+
+.book-appointment .form-group .form-control {
+  background-color: var(--white-color);
+}
+
+.book-appointment .default-btn {
+  display: block;
+  width: 100%;
+}
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  .services-img.mb-20 {
+    margin-bottom: 30px;
+  }
+  .services-sidebar {
+    padding: 20px;
+    margin-top: 30px;
+  }
+  .services-sidebar h3 {
+    margin-bottom: 20px;
+  }
+  .book-appointment {
+    padding: 20px;
+  }
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .services-img.mb-20 {
+    margin-bottom: 30px;
+  }
+  .services-sidebar {
+    padding: 20px;
+    margin-top: 30px;
+  }
+  .services-sidebar h3 {
+    margin-bottom: 20px;
+  }
+  .book-appointment {
+    padding: 20px;
+  }
+}
+
+/* Min width 992px to Max width 1199px */
+/*# sourceMappingURL=services-details.css.map */

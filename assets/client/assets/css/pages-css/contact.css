@@ -1,0 +1,240 @@
+/*
+Contact Area CSS
+=====================================================*/
+.single-contact-bg {
+  background: -webkit-gradient(linear, left top, right top, from(#f6f7ff), to(#f0f8ff));
+  background: linear-gradient(to right, #f6f7ff, #f0f8ff);
+  padding: 30px;
+}
+
+.single-contact-info {
+  margin-top: -5px;
+}
+
+.single-contact-info h3 {
+  font-size: 24px !important;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  position: relative;
+}
+
+.single-contact-info h3::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background-color: var(--main-color);
+}
+
+.single-contact-info .address {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.single-contact-info .address .location {
+  color: var(--body-color);
+}
+
+.single-contact-info .address .location span {
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: var(--heading-color);
+}
+
+.single-contact-info .address li {
+  position: relative;
+  margin-bottom: 20px;
+  padding-left: 0;
+  position: relative;
+}
+
+.single-contact-info .address li::before {
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  background-color: var(--white-color);
+  display: none;
+}
+
+.single-contact-info .address li a {
+  color: var(--body-color);
+  display: block;
+}
+
+.single-contact-info .address li a:hover {
+  color: var(--main-color);
+}
+
+.single-contact-info .address li:last-child {
+  margin-bottom: 0;
+}
+
+.single-contact-info .address li span {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: var(--heading-color);
+}
+
+.single-contact-info .works-hours {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.single-contact-info .works-hours li {
+  margin-right: 10px;
+  color: var(--body-color);
+  display: block;
+  margin-bottom: 20px;
+}
+
+.single-contact-info .works-hours li span {
+  float: right;
+}
+
+.single-contact-info .works-hours li:last-child {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.single-contact-info.follow-us {
+  margin-top: 40px;
+}
+
+/* 
+Main Contact Area Style
+=====================================================*/
+.main-contact-area h3 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.main-contact-area h3::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background-color: var(--main-color);
+}
+
+.main-contact-area .form-group {
+  margin-bottom: 30px;
+}
+
+.main-contact-area .form-group label {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.main-contact-area .form-group .form-control {
+  background-color: var(--white-color);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  border-color: #eeeeee;
+}
+
+.main-contact-area .form-group .form-control:focus {
+  border-color: var(--main-color);
+}
+
+.main-contact-area .form-group .form-control::-webkit-input-placeholder {
+  color: #6b7c93;
+}
+
+.main-contact-area .form-group .form-control:-ms-input-placeholder {
+  color: #6b7c93;
+}
+
+.main-contact-area .form-group .form-control::-ms-input-placeholder {
+  color: #6b7c93;
+}
+
+.main-contact-area .form-group .form-control::placeholder {
+  color: #6b7c93;
+}
+
+.main-contact-area .form-group.checkboxs {
+  position: relative;
+}
+
+.main-contact-area .form-group.checkboxs #chb2 {
+  position: absolute;
+  top: 8px;
+  left: 0;
+}
+
+.main-contact-area .form-group.checkboxs p {
+  padding-left: 20px;
+}
+
+.main-contact-area .form-group.checkboxs p a {
+  color: var(--main-color);
+}
+
+.main-contact-area .form-group.checkboxs p a:hover {
+  color: var(--heading-color);
+}
+
+.list-unstyled {
+  color: #dc3545;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.hidden {
+  display: none;
+}
+
+#msgSubmit {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.map-area {
+  overflow: hidden;
+  margin-bottom: -100px;
+}
+
+.map-area iframe {
+  width: 100%;
+  height: 500px;
+  display: block;
+}
+
+/* 
+Responsive Area Style
+=====================================================*/
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  .map-area iframe {
+    height: 300px;
+  }
+  .single-contact-bg {
+    padding: 20px;
+    margin-top: 50px;
+  }
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .map-area iframe {
+    height: 300px;
+  }
+  .single-contact-bg {
+    margin-top: 50px;
+  }
+}
+/*# sourceMappingURL=contact.css.map */

@@ -1,0 +1,122 @@
+/* 
+Book Online Area Style
+=====================================================*/
+.book-online {
+  padding: 30px;
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+  background-color: var(--white-color);
+}
+
+.book-online h3 {
+  margin-bottom: 20px;
+  position: relative;
+  padding-bottom: 10px;
+  font-size: 24px;
+  position: relative;
+}
+
+.book-online h3::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: var(--main-color);
+  width: 150px;
+  height: 3px;
+}
+
+.book-online .form-group {
+  margin-bottom: 20px;
+}
+
+.book-online .form-group .form-control {
+  background-color: var(--white-color);
+  border-color: #ebebeb;
+}
+
+.book-online .form-group label {
+  display: block;
+  color: var(--body-color);
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.book-online .form-group label .required {
+  color: var(--body-color);
+}
+
+.book-online .form-group .nice-select {
+  float: unset;
+  line-height: 45px;
+  color: var(--body-color);
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.book-online .form-group .nice-select .list {
+  background-color: var(--white-color);
+  -webkit-box-shadow: 0px 0px 29px 0px rgba(102, 102, 102, 0.1);
+          box-shadow: 0px 0px 29px 0px rgba(102, 102, 102, 0.1);
+  border-radius: 0;
+  margin-top: 0;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.book-online .form-group .nice-select .list .option {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.book-online .form-group .nice-select .list .option:hover {
+  background-color: var(--main-color) !important;
+  color: var(--white-color);
+}
+
+.book-online .form-group .nice-select .list .option.selected {
+  background-color: transparent;
+}
+
+.book-online .form-group .nice-select:after {
+  right: 20px;
+}
+
+.book-online .form-group .nice-select .option:hover, .book-online .form-group .nice-select .option.focus, .book-online .form-group .nice-select .option.selected.focus {
+  background-color: var(--main-color) !important;
+  color: var(--white-color) !important;
+}
+
+.book-online .form-group textarea {
+  padding-top: 13px;
+}
+
+.book-online .form-check {
+  margin-bottom: 20px;
+}
+
+.book-online .form-check .form-check-label {
+  color: var(--body-color);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.book-online .form-check label {
+  position: relative;
+  top: 1px;
+}
+
+.book-online .col-lg-12:last-child .form-group {
+  margin-bottom: 0;
+}
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  .book-online {
+    padding: 20px;
+  }
+}
+/*# sourceMappingURL=online-book.css.map */

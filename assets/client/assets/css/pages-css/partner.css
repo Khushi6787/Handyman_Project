@@ -1,0 +1,87 @@
+/*
+Partner Area Style
+======================================================*/
+.partner-area .owl-carousel .owl-item img {
+  width: auto;
+  margin: auto;
+}
+
+.partner-bg {
+  padding: 50px;
+  text-align: center;
+  border-radius: 20px;
+  position: relative;
+  border-radius: 50px 0 50px 0;
+  background-image: url(../../images/partner/partner-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  z-index: 1;
+}
+
+.partner-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--optional-color);
+  opacity: 0.9;
+  border-radius: 50px 0 50px 0;
+  z-index: -1;
+}
+
+.partner-bg span {
+  color: var(--white-color);
+  display: block;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.partner-bg.style-two {
+  border-radius: 0;
+}
+
+.partner-bg.style-two::before {
+  border-radius: 0;
+}
+
+.partner-bg.style-three {
+  border-radius: 0;
+}
+
+.partner-bg.style-three span {
+  color: var(--heading-color);
+}
+
+.partner-bg.style-three::before {
+  border-radius: 0;
+  background-color: #f8faff;
+}
+
+/*
+Responsive Area Style
+======================================================*/
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  .partner-bg span {
+    margin-bottom: 30px;
+  }
+  .partner-bg .shape {
+    display: none;
+  }
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .partner-bg span {
+    margin-bottom: 30px;
+  }
+  .partner-bg .shape {
+    display: none;
+  }
+}
+/*# sourceMappingURL=partner.css.map */

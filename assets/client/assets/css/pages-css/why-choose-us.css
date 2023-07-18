@@ -1,0 +1,140 @@
+.why-choose-us-content {
+  background-color: #f8faff;
+  padding: 50px;
+  margin-right: -124px;
+  margin-top: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+.why-choose-us-content .top-title {
+  color: var(--main-color);
+  font-size: 15px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.why-choose-us-content h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.why-choose-us-content .why-choose-us-list {
+  margin-top: 30px;
+}
+
+.why-choose-us-content .why-choose-us-list ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.why-choose-us-content .why-choose-us-list ul li {
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: var(--heading-color);
+}
+
+.why-choose-us-content .why-choose-us-list ul li:last-child {
+  margin-bottom: 0;
+}
+
+.why-choose-us-content .why-choose-us-list ul li span {
+  position: absolute;
+  top: -3px;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  background-color: var(--main-color);
+  text-align: center;
+  color: var(--white-color);
+  font-weight: 600;
+  border-radius: 50px;
+}
+
+.why-choose-us-img {
+  background-image: url(../../images/why-choose-us.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  position: relative;
+}
+
+.why-choose-us-img::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  background-color: var(--white-color);
+}
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  .why-choose-us-content {
+    margin-right: 0;
+    margin-top: 0;
+    padding: 20px;
+    padding-bottom: 0;
+  }
+  .why-choose-us-content .top-title {
+    font-size: 14px;
+  }
+  .why-choose-us-content h2 {
+    font-size: 28px;
+  }
+  .why-choose-us-content .why-choose-us-list ul {
+    margin-bottom: 20px;
+  }
+  .why-choose-us-img {
+    height: 400px;
+    margin-top: 30px;
+  }
+  .why-choose-us-img::before {
+    display: none;
+  }
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .why-choose-us-content {
+    margin-right: 0;
+    margin-top: 0;
+    padding: 20px;
+    padding-bottom: 0;
+  }
+  .why-choose-us-content .top-title {
+    font-size: 14px;
+  }
+  .why-choose-us-content h2 {
+    font-size: 28px;
+  }
+  .why-choose-us-content .why-choose-us-list ul {
+    margin-bottom: 20px;
+  }
+  .why-choose-us-img {
+    height: 400px;
+    margin-top: 30px;
+  }
+  .why-choose-us-img::before {
+    display: none;
+  }
+}
+
+/* Min width 992px to Max width 1199px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .why-choose-us-content {
+    margin: 0;
+    padding: 20px;
+  }
+  .why-choose-us-img::before {
+    display: none;
+  }
+}
+/*# sourceMappingURL=why-choose-us.css.map */

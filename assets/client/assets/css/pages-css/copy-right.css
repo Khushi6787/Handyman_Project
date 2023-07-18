@@ -1,0 +1,44 @@
+/*
+Copy Right Area Style
+======================================================*/
+.bg-color-1f242e {
+  background-color: #1f242e;
+}
+
+.copy-right-area {
+  border-top: 1px solid #363a43;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.copy-right-area p {
+  color: var(--white-color);
+}
+
+.copy-right-area p i {
+  position: relative;
+  top: 2px;
+}
+
+.copy-right-area p a {
+  color: var(--main-color);
+  font-weight: 600;
+}
+
+.copy-right-area p a:hover {
+  color: var(--main-color);
+}
+
+.copy-right-area.copy-right-area-style-two {
+  border-top: 1px solid #3e3c7d;
+}
+
+.copy-right-area.copy-right-area-style-two p {
+  color: #8c9cb1;
+}
+
+.copy-right-area.copy-right-area-style-two p a {
+  color: var(--main-color);
+}
+/*# sourceMappingURL=copy-right.css.map */

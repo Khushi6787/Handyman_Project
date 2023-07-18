@@ -1,0 +1,155 @@
+/*
+FAQ Area CSS
+======================================================*/
+.faq-area {
+  position: relative;
+  z-index: 1;
+}
+
+.faq-area .shape {
+  position: absolute;
+  z-index: -1;
+}
+
+.faq-area .shape.faq-shape-1 {
+  top: 0;
+  left: 0;
+}
+
+.faq-area .shape.faq-shape-2 {
+  bottom: 0;
+  right: 0;
+}
+
+.faq-content {
+  border-top: 1px solid #e9e4f9;
+}
+
+.faq-accordion {
+  max-width: 930px;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.faq-accordion .shape {
+  position: absolute;
+  z-index: -1;
+}
+
+.faq-accordion .shape.shape-1 {
+  left: -50px;
+  top: -100px;
+}
+
+.faq-accordion .shape.shape-2 {
+  right: -50px;
+  bottom: -50px;
+}
+
+.faq-accordion .accordion {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.faq-accordion .accordion .accordion-item {
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.faq-accordion .accordion .accordion-item:last-child {
+  margin-bottom: 0;
+}
+
+.faq-accordion .accordion .accordion-title {
+  padding: 20px 60px 17px 30px;
+  color: var(--heading-color);
+  text-decoration: none;
+  position: relative;
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  background: -webkit-gradient(linear, left top, right top, from(#f7f7ff), to(#f0f8ff));
+  background: linear-gradient(to right, #f7f7ff, #f0f8ff);
+  z-index: 1;
+  font-family: var(--heading-font-family);
+}
+
+.faq-accordion .accordion .accordion-title i {
+  position: absolute;
+  right: 7px;
+  top: 7px;
+  font-size: 20px;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  background-color: var(--white-color);
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.faq-accordion .accordion .accordion-title.active i {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  background-image: -webkit-gradient(linear, left top, right top, from(#f21d56), to(#f29422));
+  background-image: linear-gradient(to right, #f21d56, #f29422);
+  color: var(--white-color);
+}
+
+.faq-accordion .accordion .accordion-title.active i::before {
+  content: "\f1af";
+}
+
+.faq-accordion .accordion .accordion-content {
+  display: none;
+  position: relative;
+  margin-top: -6px;
+  padding: 30px;
+  background-color: var(--white-color);
+  border-radius: 0 0 15px 15px;
+}
+
+.faq-accordion .accordion .accordion-content.show {
+  display: block;
+}
+
+.faq-img {
+  position: relative;
+  z-index: 1;
+}
+
+.faq-img .faq-img-shape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: auto;
+  z-index: -1;
+}
+
+.faq-accordion .accordion .accordion-content {
+  padding-bottom: 15px;
+}
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  .faq-accordion .accordion .accordion-title {
+    padding: 20px 60px 17px 15px;
+    font-size: 17px;
+  }
+  .faq-accordion .accordion .accordion-title i {
+    right: 15px;
+  }
+  .faq-accordion .accordion .accordion-content {
+    padding: 15px;
+  }
+  .faq-accordion .accordion .accordion-title i {
+    top: 18px;
+    right: 8px;
+  }
+}
+/*# sourceMappingURL=faq.css.map */

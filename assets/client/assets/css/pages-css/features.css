@@ -1,0 +1,77 @@
+.features-bg {
+  background-color: var(--optional-color);
+  border-radius: 50px 0 50px 0;
+  margin-top: -90px;
+  position: relative;
+  z-index: 1;
+}
+
+.single-features {
+  text-align: center;
+  padding: 30px;
+}
+
+.single-features i {
+  color: var(--white-color);
+  font-size: 80px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.single-features h3 {
+  color: var(--white-color);
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.single-features.active {
+  background-color: var(--main-color);
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.single-features.active .features-shape {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  .features-bg {
+    margin-top: 60px;
+  }
+  .single-features i {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  .single-features h3 {
+    font-size: 20px;
+  }
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .features-bg {
+    margin-top: 60px;
+  }
+  .single-features i {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  .single-features h3 {
+    font-size: 20px;
+  }
+}
+
+/* Min width 992px to Max width 1199px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .features-bg {
+    margin-top: 100px;
+  }
+}
+/*# sourceMappingURL=features.css.map */

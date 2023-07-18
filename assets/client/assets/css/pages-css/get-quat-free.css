@@ -1,0 +1,200 @@
+.get-free-quote-bg {
+  background-color: #f0f2f9;
+  border-radius: 50px 0 0 0;
+}
+
+.get-free-quote-bg.style-two {
+  background-color: #f0f2f9;
+  border-radius: 0;
+}
+
+.get-free-quote-bg.style-two .get-free-form .form-group .form-control {
+  color: var(--heading-color);
+  background-color: var(--white-color);
+  border-color: var(--white-color);
+}
+
+.get-free-quote-bg.style-two .get-free-form .form-group .form-control::-webkit-input-placeholder {
+  color: var(--body-color);
+}
+
+.get-free-quote-bg.style-two .get-free-form .form-group .form-control:-ms-input-placeholder {
+  color: var(--body-color);
+}
+
+.get-free-quote-bg.style-two .get-free-form .form-group .form-control::-ms-input-placeholder {
+  color: var(--body-color);
+}
+
+.get-free-quote-bg.style-two .get-free-form .form-group .form-control::placeholder {
+  color: var(--body-color);
+}
+
+.get-free-quote-bg.style-two .get-free-form .form-group .form-control:focus {
+  border-color: var(--main-color);
+}
+
+.get-free-form {
+  padding: 50px;
+  padding-left: 26px;
+}
+
+.get-free-form .logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.get-free-form h2 {
+  font-size: 40px;
+  color: var(--heading-color);
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.get-free-form label {
+  margin-bottom: 12px;
+  color: var(--white-color);
+  display: block;
+}
+
+.get-free-form .form-group {
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.get-free-form .form-group .form-control {
+  color: var(--heading-color);
+  color: var(--heading-color);
+  background-color: var(--white-color);
+  border-color: var(--white-color);
+}
+
+.get-free-form .form-group .form-control::-webkit-input-placeholder {
+  color: var(--body-color);
+}
+
+.get-free-form .form-group .form-control:-ms-input-placeholder {
+  color: var(--body-color);
+}
+
+.get-free-form .form-group .form-control::-ms-input-placeholder {
+  color: var(--body-color);
+}
+
+.get-free-form .form-group .form-control::placeholder {
+  color: var(--body-color);
+}
+
+.get-free-form .form-group .form-control:focus {
+  border-color: var(--main-color);
+}
+
+.get-free-form .form-group .form-control::-webkit-input-placeholder {
+  color: var(--body-color);
+}
+
+.get-free-form .form-group .form-control:-ms-input-placeholder {
+  color: var(--body-color);
+}
+
+.get-free-form .form-group .form-control::-ms-input-placeholder {
+  color: var(--body-color);
+}
+
+.get-free-form .form-group .form-control::placeholder {
+  color: var(--body-color);
+}
+
+.get-free-form .form-group .form-control:focus {
+  border-color: var(--main-color);
+}
+
+.get-free-form .default-btn {
+  width: 100%;
+  display: block;
+}
+
+.get-free-quat-img {
+  background-image: url(../../images/get-quat-free-img.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  border-radius: 50px 0 0 0;
+}
+
+.get-free-quat-img.style-two {
+  background-image: url(../../images/get-quat-free-img-two.jpg);
+  border-radius: 0;
+  position: relative;
+}
+
+.get-free-quat-img.style-two .video-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.get-free-quat-img.style-two .video-button i {
+  width: 80px;
+  height: 80px;
+  line-height: 72px;
+  text-align: center;
+  background-color: var(--main-color);
+  border: 5px solid var(--white-color);
+  display: inline-block;
+  font-size: 35px;
+  color: var(--white-color);
+  border-radius: 50%;
+}
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  .get-free-quat-img {
+    height: 300px;
+    margin-bottom: 15px;
+  }
+  .get-free-form {
+    padding: 15px;
+    padding-bottom: 30px;
+  }
+  .get-free-form .logo {
+    margin-bottom: 10px;
+  }
+  .get-free-form h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .get-free-quat-img {
+    height: 500px;
+    margin-bottom: 15px;
+  }
+  .get-free-form {
+    padding: 15px;
+    padding-bottom: 30px;
+  }
+  .get-free-form .logo {
+    margin-bottom: 10px;
+  }
+  .get-free-form h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+}
+/*# sourceMappingURL=get-quat-free.css.map */

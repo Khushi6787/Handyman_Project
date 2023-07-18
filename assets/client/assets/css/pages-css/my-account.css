@@ -1,0 +1,197 @@
+/*
+User Area CSS
+=====================================================*/
+.user-area {
+  position: relative;
+  z-index: 1;
+}
+
+.user-area .user-form-content {
+  background: -webkit-gradient(linear, left top, right top, from(#f6f7ff), to(#f0f8ff));
+  background: linear-gradient(to right, #f6f7ff, #f0f8ff);
+  padding: 50px;
+  margin: auto;
+  max-width: 700px;
+  margin: auto;
+}
+
+.user-area .user-form-content h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.user-area .user-form-content h3::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 150px;
+  height: 3px;
+  background-color: var(--main-color);
+}
+
+.user-area .user-form-content .user-form .form-group {
+  margin-bottom: 30px;
+}
+
+.user-area .user-form-content .user-form .form-group label {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.user-area .user-form-content .user-form .form-group .form-control {
+  background: var(--white-color);
+}
+
+.user-area .user-form-content .user-form .login-action {
+  margin-bottom: 30px;
+}
+
+.user-area .user-form-content .user-form .login-action .log-rem {
+  display: inline-block;
+}
+
+.user-area .user-form-content .user-form .login-action .log-rem label {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.user-area .user-form-content .user-form .login-action .log-rem a {
+  color: var(--main-color);
+}
+
+.user-area .user-form-content .user-form .login-action .forgot-login {
+  display: inline-block;
+  float: right;
+}
+
+.user-area .user-form-content .user-form .default-btn {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.user-area .user-form-content .or {
+  text-align: center;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+.user-area .user-form-content .or::before {
+  content: "";
+  position: absolute;
+  top: 13px;
+  left: 0;
+  width: 45%;
+  height: 1px;
+  background-color: #cccccc;
+  z-index: -1;
+}
+
+.user-area .user-form-content .or::after {
+  content: "";
+  position: absolute;
+  top: 13px;
+  right: 0;
+  width: 45%;
+  height: 1px;
+  background-color: #cccccc;
+  z-index: -1;
+}
+
+.user-area .user-form-content .or-login {
+  display: block;
+  text-align: center;
+  border: 1px solid #cccccc;
+  padding: 15px 30px;
+  border-radius: var(--border-radius);
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.user-area .user-form-content .or-login i {
+  color: #3b5998;
+  font-size: 20px;
+  position: relative;
+  top: 3px;
+}
+
+.user-area .user-form-content .or-login.google i {
+  color: #ed1d24;
+}
+
+.user-area .user-form-content .or-login:hover {
+  background-color: var(--main-color);
+  color: var(--white-color);
+  border-color: var(--main-color);
+}
+
+.user-area .user-form-content .or-login:hover i {
+  color: var(--white-color);
+}
+
+.user-area .user-form-content .create {
+  text-align: center;
+  font-size: 16px;
+}
+
+.user-area .user-form-content .create a {
+  color: var(--main-color);
+}
+
+.user-area .user-form-content.log-in-width {
+  max-width: 930px;
+  margin: auto;
+}
+
+.user-area .user-form-content.register-width {
+  max-width: 930px;
+  margin: auto;
+}
+
+.user-area #remember-2 {
+  position: relative;
+  top: 1px;
+}
+
+/*
+Responsive Area CSS
+=====================================================*/
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  .user-area .user-form-content {
+    padding: 20px;
+  }
+  .user-area .user-form-content.log-in-50 {
+    margin-bottom: 50px;
+  }
+  .user-area .user-form-content h3 {
+    font-size: 25px;
+  }
+  .user-area .user-form-content .user-form .login-action .forgot-login {
+    float: unset;
+    margin-top: 10px;
+  }
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .user-area .user-form-content {
+    padding: 20px;
+  }
+  .user-area .user-form-content.log-in-50 {
+    margin-bottom: 50px;
+  }
+  .user-area .user-form-content h3 {
+    font-size: 25px;
+  }
+  .user-area .user-form-content .user-form .login-action .forgot-login {
+    float: unset;
+    margin-top: 10px;
+  }
+}
+/*# sourceMappingURL=my-account.css.map */

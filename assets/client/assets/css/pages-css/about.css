@@ -1,0 +1,139 @@
+.about-bg {
+  background-image: url(../../images/about-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.about-content {
+  background-color: var(--white-color);
+  padding: 50px;
+  max-width: 830px;
+  margin-left: auto;
+}
+
+.about-content .top-title {
+  color: var(--main-color);
+  font-size: 15px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.about-content h2 {
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+.about-content .single-count {
+  margin-bottom: 30px;
+}
+
+.about-content .single-count h1 {
+  font-size: 60px;
+  margin-bottom: 5px;
+  color: var(--main-color);
+}
+
+.about-content .single-count h3 {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.about-content .default-btn {
+  margin-top: 12px;
+}
+
+.about-content.style-three {
+  padding: 0;
+}
+
+.about-content.style-three .default-btn {
+  margin-top: 25px;
+}
+
+.about-img-three {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 80px;
+}
+
+.about-img-three .abput-img-shape-3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.about-img-three .abput-img-logo-3 {
+  position: absolute;
+  bottom: -110px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: auto;
+}
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  .about-bg {
+    padding: 0 !important;
+  }
+  .about-content {
+    padding: 0;
+  }
+  .about-content h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .about-content .single-count {
+    -webkit-box-shadow: var(--box-shadow);
+            box-shadow: var(--box-shadow);
+    padding: 30px;
+    text-align: center;
+  }
+  .about-content .single-count h1 {
+    font-size: 40px;
+  }
+  .about-content .default-btn {
+    display: table;
+    margin: auto;
+  }
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-bg {
+    padding: 0 !important;
+  }
+  .about-content {
+    padding: 0;
+  }
+  .about-content h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .about-content .single-count {
+    -webkit-box-shadow: var(--box-shadow);
+            box-shadow: var(--box-shadow);
+    padding: 30px;
+    text-align: center;
+  }
+  .about-content .single-count h1 {
+    font-size: 40px;
+  }
+  .about-content .default-btn {
+    display: table;
+    margin: auto;
+  }
+}
+
+/* Min width 992px to Max width 1199px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-content {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+/*# sourceMappingURL=about.css.map */

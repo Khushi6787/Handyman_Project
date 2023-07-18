@@ -1,0 +1,134 @@
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  .ptb-100 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .pt-100 {
+    padding-top: 60px;
+  }
+  .pb-100 {
+    padding-bottom: 60px;
+  }
+  .pt-70 {
+    padding-top: 30px;
+  }
+  .pb-70 {
+    padding-bottom: 30px;
+  }
+  .pr-15 {
+    padding-right: 0 !important;
+  }
+  .ptb-70 {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+  .pl-15 {
+    padding-left: 0 !important;
+  }
+  .mr-15 {
+    margin-right: 0 !important;
+  }
+  .ml-15 {
+    margin-left: 0 !important;
+  }
+  p {
+    font-size: 15px;
+  }
+  .pl-0 {
+    padding-left: 12px;
+  }
+  .pr-0 {
+    padding-right: 12px;
+  }
+  .default-btn {
+    padding: 12px 20px;
+    font-size: 15px;
+  }
+  .section-title {
+    margin-bottom: 40px;
+  }
+  .section-title span {
+    font-size: 16px;
+  }
+  .section-title h2 {
+    font-size: 28px;
+  }
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .ptb-100 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .pt-100 {
+    padding-top: 60px;
+  }
+  .pb-100 {
+    padding-bottom: 60px;
+  }
+  .pt-70 {
+    padding-top: 30px;
+  }
+  .pb-70 {
+    padding-bottom: 30px;
+  }
+  .pr-15 {
+    padding-right: 0 !important;
+  }
+  .ptb-70 {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+  .pl-15 {
+    padding-left: 0 !important;
+  }
+  .mr-15 {
+    margin-right: 0 !important;
+  }
+  .ml-15 {
+    margin-left: 0 !important;
+  }
+  .pl-0 {
+    padding-left: 12px;
+  }
+  .pr-0 {
+    padding-right: 12px;
+  }
+  .default-btn {
+    padding: 12px 20px;
+    font-size: 15px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .section-title {
+    margin-bottom: 40px;
+  }
+  .section-title span {
+    font-size: 16px;
+  }
+  .section-title h2 {
+    font-size: 30px;
+  }
+}
+
+/* Min width 992px to Max width 1199px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .mr-15 {
+    margin-right: 0 !important;
+  }
+  .ml-15 {
+    margin-left: 0 !important;
+  }
+}
+
+/* Max width 1500px */
+/* Continuer Custom Width Area Style */
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
